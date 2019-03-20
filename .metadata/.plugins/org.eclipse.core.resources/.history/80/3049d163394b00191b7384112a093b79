@@ -1,0 +1,22 @@
+package br.com.db1.db1start;
+
+public class ExercicioDouble {
+	
+	public static void main(String[] args){
+		
+		Double value1 = 10.0;
+		Double value2 = 25.0;
+		
+		
+		if(value1 > value2)
+		{
+			System.out.println(value1 + " É Maior");
+		}
+		else
+		{
+			System.out.println(value2 + " É Maior");
+		}
+		
+	}
+
+}

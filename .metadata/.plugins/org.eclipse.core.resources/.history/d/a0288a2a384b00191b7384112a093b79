@@ -1,0 +1,18 @@
+package br.com.db1.db1start;
+
+public class ExercicioString {
+	
+	public static void main(String[] args){
+		
+		String nome = "nome";
+		String nome2 = "NOME";
+		nome = nome.toUpperCase();
+		nome2 = nome2.toUpperCase();
+		System.out.println(nome);
+		System.out.println(nome2);
+		
+		
+		
+	}
+
+}

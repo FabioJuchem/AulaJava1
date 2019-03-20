@@ -1,0 +1,26 @@
+package br.com.db1.db1start;
+
+public class ExercicioDouble {
+	
+	public static void main(String[] args){
+		
+		Double value1 = 25.0;
+		Double value2 = 15.0;
+		Double value3 = 355.0;
+		
+		if(value1 < value2 && value1 < value3)
+		{
+			System.out.println("Valor 1 "+ value1 +" É Menor");
+		}
+		else if(value2 < value1 && value2 < value3)
+		{
+			System.out.println("Valor 2 "+ value2 +" É Menor");
+		}
+		else
+		{
+			System.out.println("Valor 3 "+ value3 +" É Menor");
+		}
+	
+	}
+
+}
